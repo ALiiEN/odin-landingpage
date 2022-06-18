@@ -3,3 +3,34 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    margin: 0;
+
+    background-color: #1f2937;
+}
+
+button{
+
+}
