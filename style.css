@@ -9,6 +9,7 @@ ul{
     display: flex;
     align-items: center;
     gap: 16px;
+    margin: 0;
 }
 
 a{
@@ -21,11 +22,13 @@ h1{
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    margin: 0;
 }
 
 h3{
     font-size: 24px;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .secondary-text{
@@ -36,7 +39,7 @@ h3{
 .header{
 
     margin: 0;
-    height: 400px;
+    height: 450px;
     display: flex;
     justify-content: center;
 
@@ -47,30 +50,49 @@ h3{
 .header-top{
     display: flex;
     justify-content: space-between;
+    margin-top: 0;
 }
 
 .header-body{
+    margin-top: 24px;
+    width: 900px;
+
+}
+
+.header-bottom{
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    width: 900px;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.header-bottom-l{
+    width: 400px;
+}
+
+.secondary-text{
+    margin: 0;
+    margin-bottom: 16px;
+    width: 400px;
 }
 
 button{
     padding: 8px;
-    width: 150px;
+    width: 100px;
 
     border-radius: 8px;
     border: 1px solid #3882f6;
     background-color: #3882f6;
     color: #fff;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 img{
-    height: 250px;
-    width: 350px;
+    display: flex;
+    flex-grow: 1;
+    height: 150px;
+    margin-left: 32px;
 
-    background-color: #363636;
-    text-align: center;
+    background-color: #5e5e5e;
 }
+
