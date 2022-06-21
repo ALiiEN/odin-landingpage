@@ -87,7 +87,7 @@ button{
     font-weight: bold;
 }
 
-img{
+.header-img{
     display: flex;
     flex-grow: 1;
     height: 224px;
