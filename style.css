@@ -171,3 +171,46 @@ button{
     margin: 0;
 
 }
+
+.cta-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.cta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height: 100px;
+    padding: 24px;
+
+    background-color: #3882f6;
+    border-radius: 12px;
+}
+
+.cta-copy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3{
+    padding: 0;
+    margin: 0;
+}
+
+.cta-subtxt{
+    padding: 0;
+    margin: 0;
+
+    color: #fff;
+}
+
+.cta-btn{
+    height: 35px;
+
+    border: 2px solid #fff;
+}
