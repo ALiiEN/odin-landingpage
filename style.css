@@ -100,7 +100,10 @@ button{
 .rand-info{
     display: flex;
     flex-direction: column;
-    align-items: center;   
+    align-items: center;
+    height: 450px;
+
+    border: 3px solid #3882f6 ;
 }
 
 .rand-info-container{
@@ -109,15 +112,32 @@ button{
     gap: 32px;
 }
 
+.rand-info-title{
+    margin-bottom: 50px;
+
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
 .info-1{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 
     border: 3px solid #3882f6 ;
-    border-radius: 6px;
+    border-radius: 12px;
     text-align: center;
 }
 
+.info-pic{
+    margin-bottom: 100px;
+}
+
 .info-1.p{
-    margin-top: 32px;
+    color: #3882f6;
+}
+
+.info-pic-subtxt{
+    font-size: 13px;
+    color: #1f2937;
 }
