@@ -195,6 +195,7 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 40px;
 }
 
 h3{
@@ -211,6 +212,7 @@ h3{
 
 .cta-btn{
     height: 35px;
+    margin-right: 40px;
 
     border: 2px solid #fff;
 }
